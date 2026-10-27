@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply m-0 p-0 overflow-hidden bg-[#0c0e14] text-white select-none font-sans;
+  }
+}
+
+/* Responsive adjustments for smaller viewports */
+@media (max-width: 1024px) {
+  /* Scale down sidebar on tablets */
+  aside {
+    width: 3rem !important;
+  }
+  /* Shift main content accordingly */
+  main {
+    padding-left: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide sidebar on mobile */
+  aside {
+    display: none !important;
+  }
+  main {
+    padding-left: 0 !important;
+  }
+  /* Scale PiP thumbnail */
+  .pip-container {
+    left: 0.75rem !important;
+    bottom: 0.75rem !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Stack top HUD items vertically on very small screens */
+  header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+    left: 0.5rem !important;
+    right: 0.5rem !important;
+  }
+}
