@@ -6,7 +6,7 @@ A fully interactive robotics operator dashboard built with **React + Vite + Thre
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](./docs/dashboard-preview.mp4)
+![Dashboard Video](./docs/dashboard-preview.mp4)
 
 ---
 
@@ -21,7 +21,7 @@ A fully interactive robotics operator dashboard built with **React + Vite + Thre
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<work-adityakr>/eric-robotics-dashboard.git
+git clone https://github.com/work-adityakr/eric-robotics-dashboard.git
 cd eric-robotics-dashboard
 
 # 2. Install dependencies
